@@ -19,8 +19,6 @@ description: An opinionated Fedora Silverblue spin using uBlue-os tooling.
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
-  # Multimedia, codecs
-  - mozilla-openh264
   # Network
   - syncthing
   # Intel tools
