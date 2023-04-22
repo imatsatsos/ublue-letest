@@ -19,7 +19,17 @@ description: A starting point for further customization of uBlue images. Make yo
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
-
+  # Network
+  - syncthing
+  # intel tools
+  - igt-gpu-tools
+  - intel-undervolt
+  # bling
+  - fastfetch
+  - btop
+  # virtualization group
+  - @virtualization
+  
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
