@@ -1,6 +1,6 @@
 # Starting point
 
-[![build-ublue](https://github.com/imatsatsos/ublueletest/actions/workflows/build.yml/badge.svg)](https://github.com/imatsatsos/ublueletest/actions/workflows/build.yml)
+[![build-ublue](https://github.com/imatsatsos/ublue-letest/actions/workflows/build.yml/badge.svg)](https://github.com/imatsatsos/ublue-letest/actions/workflows/build.yml)
 
 This is a starting point Fedora Silverblue image designed to be customized to whatever you want, have GitHub build it for you, and then host it for you. You then just tell your computer to boot off of that image. GitHub keeps 90 days worth image backups for you, thanks Microsoft!
 
