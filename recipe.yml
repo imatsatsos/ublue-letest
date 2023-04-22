@@ -1,5 +1,5 @@
 # The image will be at ghcr.io/yourusername/name
-name: startingpoint
+name: ublue-letest
 
 # The native container image to build on top of
 # images. 
@@ -10,7 +10,7 @@ base-container: ghcr.io/ublue-os/silverblue-main
 # If you use `latest`, you will be automatically updated
 # to the next major version assuming the image you're using as your base container
 # builds with the tag (all uBlue images do this). 
-fedora-version: 37
+fedora-version: 38
 
 # This description will be visible in the container metadata
 description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
@@ -24,11 +24,19 @@ rpms:
 # this is just an example selection.
 # If you leave this empty you can use yafti for post-boot installation
 flatpaks:
-  - org.mozilla.firefox
-  - org.mozilla.Thunderbird
+  - com.brave.Browser
+  - com.spotify.client
+  - io.mpv.Mpv
   - com.mattjakeman.ExtensionManager
-  - org.libreoffice.LibreOffice
-  - org.gnome.DejaDup
-  - org.gustavoperedo.FontDownloader
+  - com.github.wwmmeasyeffects
   - com.github.tchx84.Flatseal
-  - io.github.celluloid_player.Celluloid
+  - com.usebottles.bottles
+  - org.gnome.Boxes
+  - com.raggesilver.BlackBox
+  - com.discordapp.Discord
+  - org.signal.Signal
+  - net.cozic.joplin_desktop
+  - io.gitlab.librewolf-community
+  - org.gnome.Games
+  - org.freedesktop.Platform.VulkanLayer.MangoHud//22.08
+  - com.obsproject.Studio
