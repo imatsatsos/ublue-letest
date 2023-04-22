@@ -23,10 +23,13 @@ rpms:
   - syncthing
   # intel tools
   - igt-gpu-tools
-  - intel-undervolt
+  - intel-undervol
   # bling
+  - fish
   - fastfetch
   - btop
+  # vim
+  - neovim
   # virtualization group
   - @virtualization
   
