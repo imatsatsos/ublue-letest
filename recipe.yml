@@ -13,16 +13,17 @@ base-container: ghcr.io/ublue-os/silverblue-main
 fedora-version: 38
 
 # This description will be visible in the container metadata
-description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
+description: An opinionated Fedora Silverblue spin using uBlue-os tooling.
 
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
   - python3-pip # needed for yafti (the first boot installer)
+  # Multimedia, codecs
+  - mozilla-openh264
   # Network
   - syncthing
-  # intel tools
-  - igt-gpu-tools
+  # Intel tools
   - intel-undervolt
   # bling
   - fish
@@ -31,10 +32,15 @@ rpms:
   # vim
   - neovim
   # virtualization group
-  # - @virtualization       # groups not supported
+  - virt-install
+  - libvirt-daemon-config-network
+  - libvirt-daemon-kvm
+  - qemu-kvm
+  - virt-manager
+  - virt-viewer
   
 # These Flatpaks (from flathub) will be available for install on boot
-# this is just an example selection.
+# this is my selection.
 # If you leave this empty you can use yafti for post-boot installation
 flatpaks:
   - com.brave.Browser
