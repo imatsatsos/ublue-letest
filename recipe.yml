@@ -23,7 +23,7 @@ rpms:
   - syncthing
   # intel tools
   - igt-gpu-tools
-  - intel-undervol
+  - intel-undervolt
   # bling
   - fish
   - fastfetch
