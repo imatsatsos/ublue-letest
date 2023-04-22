@@ -24,6 +24,7 @@ rpms:
   # Intel tools
   - intel-undervolt
   # bling
+  - exa
   - fish
   - fastfetch
   - btop
