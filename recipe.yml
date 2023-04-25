@@ -19,6 +19,7 @@ description: An opinionated Fedora Silverblue spin using uBlue-os tooling.
 # Place scripts in scripts/ and put the corresponding filename here
 scripts:
 #  - example.sh
+- uninstall_rpms.sh
 
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
