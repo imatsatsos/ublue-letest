@@ -9,7 +9,7 @@ done
 echo "---"
 
 # remove the default firefox (from fedora) in favor of the flatpak
-rpm-ostree override remove firefox firefox-langpacks
+rpm-ostree override remove firefox firefox-langpacks gnome-tour
 
 echo "-- Installing RPMs defined in recipe.yml --"
 rpm_packages=$(yq '.rpms[]' < /usr/etc/ublue-recipe.yml)
