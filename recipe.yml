@@ -11,7 +11,6 @@ base-image: ghcr.io/ublue-os/silverblue-main
 # What fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated
 # to the next major version assuming the image you're using as your base container
-
 # builds with the tag (all uBlue images do this). 
 fedora-version: 38
 
