@@ -9,7 +9,7 @@ For more info, check out the [uBlue homepage](https://ublue.it/) and the [main u
 
 ## Building your own
 
-You're not me, so you probably want a different set of packages.
+You're not me, so you probably want something different.
 
 See the [Make Your Own page in the documentation](https://ublue.it/making-your-own/) for quick setup instructions for setting up your own repository based on the upstream template.
 
@@ -36,6 +36,6 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## Verification
 
-These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
+These images are signed with sigstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
     cosign verify --key cosign.pub ghcr.io/imatsatsos/ublue-letest
