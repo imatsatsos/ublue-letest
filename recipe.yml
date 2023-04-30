@@ -35,12 +35,13 @@ rpms:
   # Intel tools
   - intel-undervolt
   # bling
-  - exa
-  - fish
+  # - fish
+  # - exa
+  # - bat
   - fastfetch
   - btop
   # vim
-  - neovim
+  # - neovim
   # virtualization group
   - virt-install
   - libvirt-daemon-config-network
@@ -67,5 +68,5 @@ flatpaks:
   - net.cozic.joplin_desktop
   - io.gitlab.librewolf-community
   - org.gnome.Games
-  - org.freedesktop.Platform.VulkanLayer.MangoHud//22.08
+  - org.freedesktop.Platform.VulkanLayer.MangoHud//22.08  # not locked to steam only?
   - com.obsproject.Studio
