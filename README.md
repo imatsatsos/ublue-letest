@@ -6,7 +6,7 @@
 This repo generates a customized Fedora Silverblue image, with some added (and removed) packages to suit my (imatsatsos) personal preferences.  
   
 - Base image: [ublue-silverblue-nvidia](https://github.com/ublue-os/nvidia/pkgs/container/silverblue-nvidia/89476750?tag=latest)  
-- What is added on top: syncthing, intel-undervolt, fastfetch, btop, virtualization-group (includes: virt-install, libvirt-daemon-config-network, libvirt-daemon-kvm, qemu-kvm, virt-manager, virt-viewer  
+- What is added on top: syncthing, intel-undervolt, fastfetch, btop, virtualization-group (includes: virt-install, libvirt-daemon-config-network, libvirt-daemon-kvm, qemu-kvm, virt-manager, virt-viewer)  
   
 For more info, check out the [uBlue homepage](https://ublue.it/) and the [main uBlue repo](https://github.com/ublue-os/main/).
 
