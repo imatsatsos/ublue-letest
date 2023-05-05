@@ -77,3 +77,5 @@ flatpaks:
   - org.freedesktop.Platform.VulkanLayer.MangoHud//22.08  # not locked to steam only?
   - com.obsproject.Studio
   - com.valvesoftware.Steam
+  - com.anydesk.Anydesk
+  
